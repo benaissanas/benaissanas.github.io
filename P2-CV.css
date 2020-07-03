@@ -178,6 +178,10 @@ hr
     background-color: #FFC107;
     border: none;
 }
+.forma
+{
+	display: block;
+}
 .li1
 {
 	list-style: none;
