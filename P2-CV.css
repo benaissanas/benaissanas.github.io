@@ -21,7 +21,7 @@ body
 #right-side
 {
 	font-family: 'Roboto', sans-serif;
-   	 width: 67%;
+   	width: 67%;
 }
 
 /*LEFT-SIDE*/
@@ -66,6 +66,7 @@ img
 	list-style: none;
 	font-size: 16px;
 	color: #37474F;
+	line-height: 25px;
 }
 .me
 {
@@ -95,7 +96,7 @@ img
 	text-align: center;
 	text-transform: uppercase;
     font-size: 30px;
-    margin-top: 450px;
+    margin-top: 420px;
    	padding-bottom: 15px;
    	padding-top: 5px;
 }
@@ -161,14 +162,16 @@ h3 i
 {
 	margin-right: 25px;
 	margin-left: 70px;
-	font-size: 40px;
+	font-size: 25px;
 	color: yellow;
-	margin-top: 70px;
+	margin-top: 30px;
 }
 h3
 {
-	font-size: 30px;
+	font-size: 25px;
+	margin-top: 60px;
 	margin-bottom: 10px;
+	text-transform: uppercase;
 }
 hr
 {
@@ -178,84 +181,55 @@ hr
     background-color: #FFC107;
     border: none;
 }
-.forma
+.time
 {
-	display: block;
-}
-.li1
-{
-	list-style: none;
+	float: left;
+	margin-left: 70px;
 }
 .fa-dot-circle
 {
 	font-size: 15px;
 	color: #FFCA28;
 	margin-right: 15px;
-    margin-left: 30px;
 }
 .paris
 {
-	margin-left: 62px;
-}
-.time 
-{
-	color: #37474F;
-	width: 50%;
-	font-size: 17px;
-}
-h4
-{
-	color: #37474F;
-	margin-left: 280px;
-	margin-top: 50px;
-	margin-bottom: 10px;
-	font-size: 22px;
-}
-h5
-{
-	margin-top: 5px;
-	margin-bottom: 10px;
-	color: #37474F;
-	margin-left: 280px;
-	font-size: 17px;
-}
-p
-{
-	color: #37474F;
-    margin-left: 280px;
-    font-size: 17px;
-}
-.li2
-{
-	list-style: none;
-}
-.time-body
-{
-	margin-top: 10px;
+	margin-left: 31px;
 }
 .fa-circle
 {
 	font-size: 15px;
 	color: #FFCA28;
 	margin-right: 15px;
-    margin-left: 30px;
-    margin-top: 30px;
 }
 .orleans
 {
-	margin-left: 59px;
+	margin-left: 30px;
 }
-.formation
+h4
 {
-	text-transform: uppercase;
+	margin-top: 35px;
+	color: #37474F;
+	font-size: 22px;
+	margin-left: 300px;
 }
-.fa-pencil-alt
+h5
 {
-	margin-top: 60px;
+	color: #37474F;
+	font-size: 17px;
+	margin-left: 300px;
 }
-.last-ul
+p
+{
+	color: #37474F;
+	font-size: 17px;
+	margin-left: 300px;
+}
+.last-list
 {
 	margin-top: 30px;
+	margin-left: 30px;
+	/*margin-bottom: 200px;*/
 }
 li
 {
@@ -271,23 +245,19 @@ li
 {
 	float: right;
 	width: 50%;
-	margin-bottom: 100px;
 }   
 
-/*MEDIA QUERIES*/
-
-/*PETITS MOBILES*/
 
 @media only screen and (max-width: 520px)
 
 {
 	#main-page
-	{
-		flex-direction: column;
-	}
-	#left-side, #right-side
-	{
-		width: 100%;
+		{
+			flex-direction: column;
+		}
+		#left-side, #right-side
+		{
+			width: 100%;
     	}
     	#main-title
     	{
@@ -323,38 +293,53 @@ li
         	margin-top: 20px;
     		margin-left: 0px;
     	}
-    	h3 .fa-graduation-cap
+    	h3 i
     	{
-    		font-size: 27px;
+    		margin-right: 5px;
+    		margin-left: 0px;
+    		font-size: 25px;
     	}
-		#formation h3
-		{
-			font-size: 22px;
-			padding: 3px;
-		}
-		#experience h3
-		{
-			font-size: 20px;
-			padding: 3px;
-		}
-		#recommendation h3
-		{
-			font-size: 22px;
-			padding: 3px;
-		}
+    	h3
+    	{
+    		font-size: 22px;
+    		padding: 3px;
+    	}
+    	.fa-dot-circle
+    	{
+    		margin-left: 0px;
+    	}
+    	#experience h4
+    	{
+    		margin-left: 100px;
+    	}
+    	.time
+        {
+            padding: 5px;
+            margin-left: 0px;
+        }
     	.time-body h4
     	{
     		margin-top: 0;
-    		margin-left: 40px;
+    		margin-left: 70px;
     		font-size: 19px;
+    		width: 50%;
+    	}
+    	#formation h5
+    	{
+    		margin-left: 70px;
     	}
     	.time-body h5
     	{
-    		margin-left: 40px;
+    		margin-left: 100px;
     	}
     	.time-body p
     	{
     		margin-left: 20px;
+    	}
+    	.last-list
+    	{
+    		margin-bottom: 0px;
+    		line-height: 25px;
     	}
     	.last-list1
     	{
@@ -367,13 +352,18 @@ li
     	}
     	.orleans
     	{
-    		margin-left: 39px;
+    		display: none;
+    	}
+    	.paris
+    	{
+    		display: none;
     	}
     	.about p
     	{
     		margin-bottom: 20px;
     	}
-	}	
+	}
+
 
 /* smartphone */
 
@@ -411,7 +401,7 @@ li
     	}
     	.dev h3
     	{
-        	font-size: 30px;
+        	font-size: 25px;
     	}
 		#mobil-name span
 		{
@@ -449,24 +439,28 @@ li
 			margin-top: 0px;
 			font-size: 23px;
 		}
-		h3
+		#experience h3
 		{
 			font-size: 23px;
+		}
+		h3
+		{
+			font-size: 25px;
 			margin-bottom: 10px;
 			text-align: center;
 			background-color: #1E88E5;
 			padding: 0;
 			margin: 0;
 		}
+
 		hr
 		{
 			display: none;
 		}
-	    .time 
-        
+
 		h3 .fa-graduation-cap
 	    {
-	    	font-size: 27px;
+	    	font-size: 25px;
 	    }
 		.fa-dot-circle
 		{
@@ -477,7 +471,10 @@ li
 		{
 			margin-right: 15px;
 	    	margin-left: 10px;
-	    	margin-top: 30px;
+		}
+		.time
+		{
+			margin-left: 0px;
 		}
 		.fa-pencil-alt
 		{
@@ -508,6 +505,7 @@ li
 		    font-size: 17px;
 		}
 	}
+}	
 
 @media screen and (max-width:1024px) 
 
@@ -574,7 +572,7 @@ li
     	{
     		margin-top: 0px;
     	}
-		#formation h3
+    	#formation h3
 		{
 			font-size: 27px;
 			margin-bottom: 10px;
@@ -585,7 +583,7 @@ li
 		}
 		#formation i
 		{
-	        	margin-top: 0px;
+	        margin-top: 0px;
 		}
 		#experience i
 		{
@@ -593,9 +591,10 @@ li
 		}
 		#experience h3
 		{
-	        	background-color: #1E88E5; 
-	        	text-align: center;
-	        	margin-bottom: 0px;
+	        background-color: #1E88E5; 
+	       	text-align: center;
+	       	margin-bottom: 0px;
+	       	font-size: 23px;
 		}
 		#recommendation h3
 		{
@@ -615,15 +614,15 @@ li
 		.fa-dot-circle
 		{
 			margin-right: 11px;
-	    		margin-left: 10px;
-	    		font-size: 16px;
+	    	margin-left: 10px;
+	    	font-size: 16px;
 		}
 		.fa-circle
 		{
 			margin-right: 10px;
-	    		margin-left: 10px;
-	    		margin-top: 30px;
-	    		font-size: 10px;
+	    	margin-left: 10px;
+	    	margin-top: 30px;
+	   		font-size: 10px;
 		}
 		.fa-pencil-alt
 		{
@@ -657,7 +656,7 @@ li
 		    margin-left: 240px;
 		    font-size: 17px;
 	    }
-    }
+	
 }
 
 
