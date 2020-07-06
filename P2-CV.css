@@ -229,7 +229,6 @@ p
 {
 	margin-top: 30px;
 	margin-left: 30px;
-	/*margin-bottom: 200px;*/
 }
 li
 {
@@ -252,117 +251,117 @@ li
 
 {
 	#main-page
-		{
-			flex-direction: column;
-		}
-		#left-side, #right-side
-		{
-			width: 100%;
-    	}
-    	#main-title
-    	{
-    		display: none;
-    	}
-    	#mobil-name
-    	{
-	    	display: flex;
-			text-align: center;
-			background-color: white;
-			flex-direction: column;
-    	}
-    	#mobil-name h1
-    	{
-    		font-size: 45px;
-    	}
-    	#mobil-name h3
-    	{
-    		font-size: 25px;
-    	}
-    	.hobbies h2
-    	{
-    		padding-bottom: 5px;
-    		padding-top: 5px;
-    	}
-    	.li-left
-    	{
-    		margin-right: 40px;
-    	}
-    	.time li
-    	{
-    		float: none;
-        	margin-top: 20px;
-    		margin-left: 0px;
-    	}
-    	h3 i
-    	{
-    		margin-right: 5px;
-    		margin-left: 0px;
-    		font-size: 25px;
-    	}
-    	h3
-    	{
-    		font-size: 22px;
-    		padding: 3px;
-    	}
-    	.fa-dot-circle
-    	{
-    		margin-left: 0px;
-    	}
-    	#experience h4
-    	{
-    		margin-left: 100px;
-    	}
-    	.time
-        {
-            padding: 5px;
-            margin-left: 0px;
-        }
-    	.time-body h4
-    	{
-    		margin-top: 0;
-    		margin-left: 50px;
-    		font-size: 19px;
-    		width: 50%;
-    	}
-    	#formation h5
-    	{
-    		margin-left: 70px;
-    	}
-    	.time-body h5
-    	{
-    		margin-left: 100px;
-    	}
-    	.time-body p
-    	{
-    		margin-left: 20px;
-    	}
-    	.last-list
-    	{
-    		margin-bottom: 0px;
-    		line-height: 25px;
-    	}
-    	.last-list1
-    	{
-    		float: none;
-    	}
-    	.last-list2
-    	{
-    		float: none;
-    		margin-bottom: 0px;
-    	}
-    	.orleans
-    	{
-    		display: none;
-    	}
-    	.paris
-    	{
-    		display: none;
-    	}
-    	.about p
-    	{
-    		margin-bottom: 20px;
-    	}
+	{
+		flex-direction: column;
 	}
+	#left-side, #right-side
+	{
+		width: 100%;
+	}
+	#main-title
+	{
+		display: none;
+	}
+	#mobil-name
+	{
+    	display: flex;
+		text-align: center;
+		background-color: white;
+		flex-direction: column;
+	}
+	#mobil-name h1
+	{
+		font-size: 45px;
+	}
+	#mobil-name h3
+	{
+		font-size: 25px;
+	}
+	.hobbies h2
+	{
+		padding-bottom: 5px;
+		padding-top: 5px;
+	}
+	.li-left
+	{
+		margin-right: 40px;
+	}
+	.time li
+	{
+		float: none;
+    	margin-top: 20px;
+		margin-left: 0px;
+	}
+	h3 i
+	{
+		margin-right: 5px;
+		margin-left: 0px;
+		font-size: 25px;
+	}
+	h3
+	{
+		font-size: 22px;
+		padding: 3px;
+	}
+	.fa-dot-circle
+	{
+		margin-left: 0px;
+	}
+	#experience h4
+	{
+		margin-left: 100px;
+	}
+	.time
+    {
+        padding: 5px;
+        margin-left: 0px;
+    }
+	.time-body h4
+	{
+		margin-top: 0;
+		margin-left: 50px;
+		font-size: 19px;
+		width: 50%;
+	}
+	#formation h5
+	{
+		margin-left: 70px;
+	}
+	.time-body h5
+	{
+		margin-left: 100px;
+	}
+	.time-body p
+	{
+		margin-left: 20px;
+	}
+	.last-list
+	{
+		margin-bottom: 0px;
+		line-height: 25px;
+	}
+	.last-list1
+	{
+		float: none;
+	}
+	.last-list2
+	{
+		float: none;
+		margin-bottom: 0px;
+	}
+	.orleans
+	{
+		display: none;
+	}
+	.paris
+	{
+		display: none;
+	}
+	.about p
+	{
+		margin-bottom: 20px;
+	}
+}
 
 
 /* smartphone */
@@ -377,133 +376,131 @@ li
 	#left-side, #right-side
 	{
 		width: 100%;
-    	}
-    	#right-side
-    	{
-    		background-color: #90CAF9;
-    	}
-    	#main-title
-    	{
-    		display: none;
-    	}
-    	#mobil-name
-    	{
-	    	display: flex;
-			text-align: center;
-			background-color: white;
-			flex-direction: column;
-    	}
-    	.name h1
-    	{
-    		font-size: 45px;
-    		margin: 0;
-    		padding: 0;
-    	}
-    	.dev h3
-    	{
-        	font-size: 25px;
-    	}
-		#mobil-name span
-		{
-        	color: #FFCA28;
-		}
-		img
-    	{
-			margin-top: 20px;
-			margin-bottom: 0px;
-    	}
-    	.title-left
-    	{
-    		margin-bottom: 5px;
-    	}
-    	.li-left
-    	{
-    		text-align: center;
-    	}
-    	.me
-    	{
-    		margin-top: 0px;
-    	}
-    	p-about
-    	{
-    		margin-bottom: 10px;
-    	}
-    	.spare-time
-    	{
-    		margin-top: 0px;
-    	}
-    	h3 i
-    	{
-			margin-right: auto;
-			margin-left:auto;
-			margin-top: 0px;
-			font-size: 23px;
-		}
-		#experience h3
-		{
-			font-size: 23px;
-		}
-		h3
-		{
-			font-size: 25px;
-			margin-bottom: 10px;
-			text-align: center;
-			background-color: #1E88E5;
-			padding: 0;
-			margin: 0;
-		}
+	}
+	#right-side
+	{
+		background-color: #90CAF9;
+	}
+	#main-title
+	{
+		display: none;
+	}
+	#mobil-name
+	{
+    	display: flex;
+		text-align: center;
+		background-color: white;
+		flex-direction: column;
+	}
+	.name h1
+	{
+		font-size: 45px;
+		margin: 0;
+		padding: 0;
+	}
+	.dev h3
+	{
+    	font-size: 25px;
+	}
+	#mobil-name span
+	{
+    	color: #FFCA28;
+	}
+	img
+	{
+		margin-top: 20px;
+		margin-bottom: 0px;
+	}
+	.title-left
+	{
+		margin-bottom: 5px;
+	}
+	.li-left
+	{
+		text-align: center;
+	}
+	.me
+	{
+		margin-top: 0px;
+	}
+	p-about
+	{
+		margin-bottom: 10px;
+	}
+	.spare-time
+	{
+		margin-top: 0px;
+	}
+	h3 i
+	{
+		margin-right: auto;
+		margin-left:auto;
+		margin-top: 0px;
+		font-size: 23px;
+	}
+	#experience h3
+	{
+		font-size: 23px;
+	}
+	h3
+	{
+		font-size: 25px;
+		margin-bottom: 10px;
+		text-align: center;
+		background-color: #1E88E5;
+		padding: 0;
+		margin: 0;
+	}
+	hr
+	{
+		display: none;
+	}
 
-		hr
-		{
-			display: none;
-		}
-
-		h3 .fa-graduation-cap
-	    {
-	    	font-size: 25px;
-	    }
-		.fa-dot-circle
-		{
-			margin-right: 11px;
-	    	margin-left: 10px;
-		}
-		.fa-circle
-		{
-			margin-right: 15px;
-	    	margin-left: 10px;
-		}
-		.time
-		{
-			margin-left: 0px;
-		}
-		.fa-pencil-alt
-		{
-			margin-top: 0px;
-		}
-		.paris
-		{
-			margin-left: 40px;
-		}
-		h4
-		{
-			margin-top: 50px;
-			margin-bottom: 10px;
-			font-size: 22px;
-			margin-left: 240px;
-		}
-		h5
-		{
-			margin-top: 5px;
-			margin-bottom: 10px;
-			color: #37474F;
-			margin-left: 240px;
-			font-size: 17px;
-		}
-		p
-		{
-		    margin-left: 240px;
-		    font-size: 17px;
-		}
+	h3 .fa-graduation-cap
+    {
+    	font-size: 25px;
+    }
+	.fa-dot-circle
+	{
+		margin-right: 11px;
+    	margin-left: 10px;
+	}
+	.fa-circle
+	{
+		margin-right: 15px;
+    	margin-left: 10px;
+	}
+	.time
+	{
+		margin-left: 0px;
+	}
+	.fa-pencil-alt
+	{
+		margin-top: 0px;
+	}
+	.paris
+	{
+		margin-left: 40px;
+	}
+	h4
+	{
+		margin-top: 50px;
+		margin-bottom: 10px;
+		font-size: 22px;
+		margin-left: 240px;
+	}
+	h5
+	{
+		margin-top: 5px;
+		margin-bottom: 10px;
+		color: #37474F;
+		margin-left: 240px;
+		font-size: 17px;
+	}
+	p
+	{
+	    margin-left: 240px;
+	    font-size: 17px;
 	}
 }	
 
@@ -517,161 +514,145 @@ li
 	#left-side, #right-side
 	{
 		width: 100%;
-    	}
-    	#right-side
-    	{
-    		background-color: #90CAF9;
-    	}
-    	#main-title
-    	{
-    		display: none;
-    	}
-    	#mobil-name
-    	{
-	    	display: flex;
-			text-align: center;
-			background-color: white;
-			flex-direction: column;
-    	}
-    	.name h1
-    	{
-    		font-size: 45px;
-    		margin: 0;
-    		padding: 0;
-    	}
-    	.dev h3
-    	{
-        	font-size: 30px;
-    	}
-	    #mobil-name span
+	}
+	#right-side
+	{
+		background-color: #90CAF9;
+	}
+	#main-title
+	{
+		display: none;
+	}
+	#mobil-name
+	{
+    	display: flex;
+		text-align: center;
+		background-color: white;
+		flex-direction: column;
+	}
+	.name h1
+	{
+		font-size: 45px;
+		margin: 0;
+		padding: 0;
+	}
+	.dev h3
+	{
+    	font-size: 30px;
+	}
+    #mobil-name span
+	{
+    	color: #FFCA28;
+	}
+	img
+	{
+		margin-top: 20px;
+		margin-bottom: 0px;
+	}
+	.title-left
+	{
+		margin-bottom: 5px;
+	}
+	.li-left
+	{
+		text-align: center;
+	}
+	.me
 		{
-        	color: #FFCA28;
-		}
-		img
-    	{
-			margin-top: 20px;
-			margin-bottom: 0px;
-    	}
-    	.title-left
-    	{
-    		margin-bottom: 5px;
-    	}
-    	.li-left
-    	{
-    		text-align: center;
-    	}
-    	.me
-   		{
-    		margin-top: 0px;
-    	}
-    	p-about
-    	{
-    		margin-bottom: 10px;
-    	}
-    	.spare-time
-    	{
-    		margin-top: 0px;
-    	}
-    	#formation h3
-		{
-			font-size: 27px;
-			margin-bottom: 10px;
-			text-align: center;
-			background-color: #1E88E5;
-			padding: 0;
-			margin: 0;
-		}
-		#formation i
-		{
-	        margin-top: 0px;
-		}
-		#experience i
-		{
-			margin-top: 0px;
-		}
-		#experience h3
-		{
-	        background-color: #1E88E5; 
-	       	text-align: center;
-	       	margin-bottom: 0px;
-	       	font-size: 23px;
-		}
-		#recommendation h3
-		{
-			background-color: #1E88E5;
-			text-align: center;
-		}
-		hr
-		{
-			display: none;
-		}
+		margin-top: 0px;
+	}
+	p-about
+	{
+		margin-bottom: 10px;
+	}
+	.spare-time
+	{
+		margin-top: 0px;
+	}
+	#formation h3
+	{
+		font-size: 27px;
+		margin-bottom: 10px;
+		text-align: center;
+		background-color: #1E88E5;
+		padding: 0;
+		margin: 0;
+	}
+	#formation i
+	{
+        margin-top: 0px;
+	}
+	#experience i
+	{
+		margin-top: 0px;
+	}
+	#experience h3
+	{
+        background-color: #1E88E5; 
+       	text-align: center;
+       	margin-bottom: 0px;
+       	font-size: 23px;
+	}
+	#recommendation h3
+	{
+		background-color: #1E88E5;
+		text-align: center;
+	}
+	hr
+	{
+		display: none;
+	}
 
-	    .time 
-		{
-			justify-content: center;
-		}
+    .time 
+	{
+		justify-content: center;
+	}
 
-		.fa-dot-circle
-		{
-			margin-right: 11px;
-	    	margin-left: 10px;
-	    	font-size: 16px;
-		}
-		.fa-circle
-		{
-			margin-right: 10px;
-	    	margin-left: 10px;
-	    	margin-top: 30px;
-	   		font-size: 10px;
-		}
-		.fa-pencil-alt
-		{
-			margin-top: 0px;
-		}
-		.paris
-		{
-			margin-left: 50px;
-		}
-		.orleans
-		{
-			margin-left: 50px;
-		}
-		h4
-		{
-			margin-top: 50px;
-			margin-bottom: 10px;
-			font-size: 22px;
-			margin-left: 240px;
-		}
-		h5
-		{
-			margin-top: 5px;
-			margin-bottom: 10px;
-			color: #37474F;
-			margin-left: 240px;
-			font-size: 17px;
-		}
-		p
-		{
-		    margin-left: 240px;
-		    font-size: 17px;
-	    }
+	.fa-dot-circle
+	{
+		margin-right: 11px;
+    	margin-left: 10px;
+    	font-size: 16px;
+	}
+	.fa-circle
+	{
+		margin-right: 10px;
+    	margin-left: 10px;
+    	margin-top: 30px;
+   		font-size: 10px;
+	}
+	.fa-pencil-alt
+	{
+		margin-top: 0px;
+	}
+	.paris
+	{
+		margin-left: 50px;
+	}
+	.orleans
+	{
+		margin-left: 50px;
+	}
+	h4
+	{
+		margin-top: 50px;
+		margin-bottom: 10px;
+		font-size: 22px;
+		margin-left: 240px;
+	}
+	h5
+	{
+		margin-top: 5px;
+		margin-bottom: 10px;
+		color: #37474F;
+		margin-left: 240px;
+		font-size: 17px;
+	}
+	p
+	{
+	    margin-left: 240px;
+	    font-size: 17px;
+    }
 	
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
