@@ -604,10 +604,10 @@ li
 		display: none;
 	}
 
-    .time 
+    /*.time 
 	{
 		justify-content: center;
-	}
+	}*/
 
 	.fa-dot-circle
 	{
@@ -639,19 +639,19 @@ li
 		margin-top: 50px;
 		margin-bottom: 10px;
 		font-size: 22px;
-		margin-left: 240px;
+		margin-left: 300px;
 	}
 	h5
 	{
 		margin-top: 5px;
 		margin-bottom: 10px;
 		color: #37474F;
-		margin-left: 240px;
+		margin-left: 300px;
 		font-size: 17px;
 	}
 	p
 	{
-	    margin-left: 240px;
+	    margin-left: 300px;
 	    font-size: 17px;
     }
 	
