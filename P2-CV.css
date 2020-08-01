@@ -310,7 +310,7 @@ li
 	}
 	#experience h4
 	{
-		margin-left: 100px;
+		margin-left: 250px;
 	}
 	.time
     {
@@ -320,17 +320,17 @@ li
 	.time-body h4
 	{
 		margin-top: 0;
-		margin-left: 50px;
+		margin-left: 250px;
 		font-size: 19px;
 		width: 50%;
 	}
 	#formation h5
 	{
-		margin-left: 70px;
+		margin-left: 250px;
 	}
 	.time-body h5
 	{
-		margin-left: 100px;
+		margin-left: 250px;
 	}
 	.time-body p
 	{
@@ -361,7 +361,7 @@ li
 	.about p
 	{
 		margin-bottom: 20px;
-	}
+	} 
 }
 
 
@@ -603,12 +603,6 @@ li
 	{
 		display: none;
 	}
-
-    /*.time 
-	{
-		justify-content: center;
-	}*/
-
 	.fa-dot-circle
 	{
 		margin-right: 11px;
