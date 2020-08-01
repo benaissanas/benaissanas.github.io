@@ -310,27 +310,27 @@ li
 	}
 	#experience h4
 	{
-		margin-left: 250px;
+		margin-left: 235px;
 	}
 	.time
-        {
+    {
 		padding: 5px;
 		margin-left: 0px;
-        }
+    }
 	.time-body h4
 	{
 		margin-top: 0;
-		margin-left: 250px;
+		margin-left: 235px;
 		font-size: 19px;
 		width: 50%;
 	}
 	#formation h5
 	{
-		margin-left: 250px;
+		margin-left: 235px;
 	}
 	.time-body h5
 	{
-		margin-left: 250px;
+		margin-left: 235px;
 	}
 	.time-body p
 	{
@@ -362,6 +362,10 @@ li
 	{
 		margin-bottom: 20px;
 	} 
+	.last-list1 
+	{
+		font-size: 16px;
+	}
 }
 
 
