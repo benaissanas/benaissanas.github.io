@@ -42,7 +42,7 @@ body
 }
 img
 {
-    width: 220px;
+    	width: 220px;
 	height: 220px;
 	border-radius: 50%;
 	margin-top: 70px;
@@ -57,7 +57,7 @@ img
 	background-color: #263238;
 	text-align: center;
 	text-transform: uppercase;
-    font-size: 30px;
+    	font-size: 30px;
    	padding-bottom: 5px;
    	padding-top: 5px;
    	margin-bottom: 45px;
@@ -75,7 +75,7 @@ img
 	background-color: #263238;
 	text-align: center;
 	text-transform: uppercase;
-    font-size: 30px;
+    	font-size: 30px;
    	padding-top: 5px;
    	padding-bottom: 5px;
    	margin-top: 60px;
@@ -86,7 +86,7 @@ img
    	margin-bottom: 150px;
    	text-align:  justify;
    	margin-left: 40px;
-    margin-right: 40px;
+    	margin-right: 40px;
    	margin-top: 30px;
    	color: #37474F;
 }
@@ -96,8 +96,8 @@ img
 	background-color: #263238;
 	text-align: center;
 	text-transform: uppercase;
-    font-size: 30px;
-    margin-top: 420px;
+    	font-size: 30px;
+   	 margin-top: 420px;
    	padding-bottom: 15px;
    	padding-top: 5px;
 }
@@ -127,7 +127,7 @@ img
 {
 	border: solid 2px #263238;
 	border-radius: 100%;
-    padding: 5px;
+    	padding: 5px;
    	margin-right: 30px;
 }
 
@@ -179,8 +179,8 @@ hr
 	height: 2px; 
 	margin-right: 40px;
 	margin-left: 70px;
-    background-color: #FFC107;
-    border: none;
+   	background-color: #FFC107;
+    	border: none;
 }
 .time
 {
@@ -238,8 +238,8 @@ li
 .last-list1 
 {
 	font-size: 17px;
-    float: left;
-    width: 50%;
+    	float: left;
+    	width: 50%;
 }    
 .last-list2 
 {
@@ -313,10 +313,10 @@ li
 		margin-left: 55px;
 	}
 	.time
-    {
+    	{
 		padding: 5px;
 		margin-left: 0px;
-    }
+    	}
 	.time-body h4
 	{
 		margin-top: 0;
@@ -392,7 +392,7 @@ li
 	}
 	#mobil-name
 	{
-    	display: flex;
+    		display: flex;
 		text-align: center;
 		background-color: white;
 		flex-direction: column;
@@ -405,11 +405,11 @@ li
 	}
 	.dev h3
 	{
-    	font-size: 25px;
+    		font-size: 25px;
 	}
-	#mobil-name span
+		#mobil-name span
 	{
-    	color: #FFCA28;
+    		color: #FFCA28;
 	}
 	img
 	{
@@ -462,13 +462,13 @@ li
 	}
 
 	h3 .fa-graduation-cap
-    {
+    	{
 		font-size: 25px;
-    }
+    	}
 	.fa-dot-circle
 	{
 		margin-right: 11px;
-    	margin-left: 10px;
+    		margin-left: 10px;
 	}
 	.fa-circle
 	{
@@ -504,8 +504,8 @@ li
 	}
 	p
 	{
-	    margin-left: 240px;
-	    font-size: 17px;
+		 margin-left: 240px;
+	    	font-size: 17px;
 	}
 }	
 
@@ -543,11 +543,11 @@ li
 	}
 	.dev h3
 	{
-    	font-size: 30px;
+    		font-size: 30px;
 	}
     	#mobil-name span
 	{
-    	color: #FFCA28;
+    		color: #FFCA28;
 	}
 	img
 	{
@@ -585,7 +585,7 @@ li
 	}
 	#formation i
 	{
-        margin-top: 0px;
+        	margin-top: 0px;
 	}
 	#experience i
 	{
